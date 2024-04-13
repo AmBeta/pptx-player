@@ -1,0 +1,17 @@
+$line-height: 1.0;
+
+.reveal .slides {
+  section {
+    line-height: $line-height;
+    border-radius: 0;
+    img {
+      margin: 0;
+      background: none;
+      border: none;
+      box-shadow: none;
+    }
+    &>section {
+      line-height: $line-height;
+    }
+  }
+}
